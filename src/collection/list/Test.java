@@ -12,7 +12,7 @@ public class Test {
 		//List is a child interface of Collection Interfcae
 		//List inteface introduces in 1.2 version
 		
-		List<Integer> list = new ArrayList(); //List is an interface so directly we can create object of interface
+		List<Integer> list = new ArrayList(); //List is an interface so directly we cant create object of interface
 									// so here we are using List's one of implemented class = ArrayList.
 		list.add(101);
 		list.add(102);		
@@ -90,9 +90,9 @@ public class Test {
 		
 		// Vector
 		// 1.Every method present in ArrayList is Synchronize
-		// 2.Synchronized means -  at a time Multiple thread are NOT-allowed to operate on Arralist Object.
+		// 2.Synchronized means -  at a time Multiple thread are NOT-allowed to operate on Vector Object.
 			//hence its not thread safe.
-		// 3.Relatively performance is low, coz Multiple thread are NOT-allowed to operat at a time.
+		// 3.Relatively performance is low, coz Multiple thread are NOT-allowed to operate at a time.
 		// 4.Introduced in 1.0v (thus its a legacy class..)
 		
 		Vector<Integer> v = new Vector();
